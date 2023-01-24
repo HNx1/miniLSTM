@@ -14,11 +14,11 @@ Memory Recurrent Neural Network (LSTM) in Python.
 
 - See my [miniconv page](https://github.com/HNx1/miniconv) for information on
   the GradFloat class and other aspects of this implementation.
-- This is the classical LSTM as described by
-  [Hochreiter & Schmidhuber](https://gwern.net/docs/ai/nn/rnn/1997-hochreiter.pdf)
-- We have the simplest possible output here for minimality - just taking the sum
+- We have a very simple output here for minimality - just taking the sum
   of the hidden vector produced by the final layer of our LSTM network. It's
-  easy to adapt this output for other purposes.
+  easy to implement a dense network for example instead at this point.
+- This is the classical LSTM structure as described by
+  [Hochreiter & Schmidhuber](https://gwern.net/docs/ai/nn/rnn/1997-hochreiter.pdf)
 - A good exercise is to make the small adaptations required to this codebase to
   implement some minor LSTM variants such as peepholes, coupling or gating.
 - You could also implement features like clipping or batching in the running process.
