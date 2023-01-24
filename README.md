@@ -21,3 +21,4 @@ Memory Recurrent Neural Network (LSTM) in Python.
   easy to adapt this output for other purposes.
 - A good exercise is to make the small adaptations required to this codebase to
   implement some minor LSTM variants such as peepholes, coupling or gating.
+- You could also implement features like clipping or batching in the running process.
