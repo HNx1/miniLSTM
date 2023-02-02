@@ -1,4 +1,4 @@
-# miniconv
+# miniLSTM
 
 This library is designed to be a minimal implementation of a Long Short-Term
 Memory Recurrent Neural Network (LSTM) in Python.
